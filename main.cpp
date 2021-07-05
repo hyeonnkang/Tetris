@@ -66,7 +66,7 @@ void printboard(int board[BOARD_HEIGHT][BOARD_WIDTH]) {
     for (int i = 0; i < BOARD_HEIGHT; i++) {
         for (int j = 0; j < BOARD_WIDTH; j++) {
             if (board[i][j] == -1) cout << "▦";
-            else if (board[i][j] == 0) cout << ' ';
+            else if (board[i][j] == 0) cout << "  ";
             else cout << '▣';
         }cout << endl;
     }
